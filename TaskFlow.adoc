@@ -1,1 +1,108 @@
+= 📝 TaskFlow - Gerenciamento de Tarefas
 
+toc::[]
+Índice
+[.no-bullets]
+
+[blue]#*xref:sobre-o-projeto[🎯 Sobre o Projeto]*#
+
+[blue]#*xref:recursos[🚀 Recursos]*#
+
+[blue]#*xref:tecnologias[📦 Tecnologias Utilizadas]*#
+
+[blue]#*xref:como-executar[🎮 Como Executar]*#
+
+[blue]#*xref:documentacao[📚 Documentação da API]*#
+
+[blue]#*xref:contribuindo[🤝 Contribuindo]*#
+
+[blue]#*xref:licenca[📄 Licença]*#
+
+[blue]#*xref:contato[✉️ Contato]*#
+
+[blue]#*xref:agradecimentos[🙏 Agradecimentos]*#
+
+
+== [[sobre-o-projeto]] 🎯 Sobre o Projeto
+
+O *TaskFlow* é um sistema de gerenciamento de tarefas simples e eficiente, desenvolvido para ajudar os usuários a organizar suas atividades diárias. Desenvolvido com *Spring Boot* , *JPA* e banco de dados *H2* , o TaskFlow oferece uma solução de nível e de fácil implementação para gerenciar tarefas de forma eficaz.
+
+== [[recursos]] 🚀 Recursos
+
+O TaskFlow oferece uma variedade de recursos para facilitar o gerenciamento de tarefas:
+
+- *✅ Criação, edição e exclusão de tarefas*: Adicione, atualize ou remova tarefas de forma intuitiva.
+- *🔔 Notificações sobre prazos*: Receba alertas sobre tarefas que estão próximas do prazo.
+- *👥 Suporte para múltiplos usuários*: Gerencie tarefas de diferentes usuários em um único sistema.
+- *📊 Dashboard com estatísticas*: Visualize estatísticas e estatísticas sobre suas tarefas.
+- *📱 API REST*:  Integre o TaskFlow com outras aplicações através de uma API RESTful.
+
+
+== [[tecnologias]] 📦 Tecnologias Utilizadas
+
+O TaskFlow foi desenvolvido utilizando as seguintes tecnologias:
+
+- *☕ Spring Boot*: Framework principal para desenvolvimento rápido e eficiente.
+- *🏛 JPA / Hibernate*: Para persistência de dados e mapeamento objeto-relacional.
+- *🗄 Banco de dados H2*: Banco de dados em memória, ideal para desenvolvimento e testes.
+- *🔐 Spring Security*: Para autenticação e autorização de usuários.
+- *🌐 Swagger*: Para documentação automática da API REST.
+
+== [[como-executar]] 🎮 Como Executar
+Siga os passos abaixo para executar o projeto em sua máquina local:
+
+=== 1. Clone o repositório e acesse a pasta do projeto :
+[source, bash]
+----
+git clone https://github.com/seu-usuario/taskflow.git
+cd taskflow
+----
+
+=== 1. Compilar uma aplicação :
+[source, bash]
+----
+mvn clean install
+----
+
+=== 1. Início ou servidor :
+[source, bash]
+----
+mvn spring-boot:run
+----
+
+Após executar esses comandos, o servidor rodará e você poderá acessar um aplicativo no endereço  `http://localhost:8080`.
+
+== [[documentacao]] 📚 Documentação da API
+
+A documentação da API pode ser acessada através do *Swagger UI* . Com o servidor em execução, acesse:
+
+----
+http://localhost:8080/swagger-ui.html
+----
+Aqui você encontra todos os endpoints disponíveis, exemplos de requisições e respostas.
+
+== [[contribuindo]] 🤝 Contribuindo
+
+Contribuições são bem-vindas! Se você deseja contribuir para o projeto, siga os passos abaixo:
+
+1. Faça um *fork* do repositório.
+2. Crie uma nova branch com sua feature ou Correção: `git checkout -b minha-feature`.
+3. Faça commit de suas alterações: `git commit -m 'Adicionando nova feature'`.
+4. Envie para o repositório remoto `git push origin minha-feature`.
+5. Abra um *Pull Request* no repositório original.
+
+== [[licenca]] 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT. Para mais detalhes, consulte o arquivo [LICENSE](LICENSE) no repositório.
+
+== [[contato]] ✉️ Contato
+
+Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato:
+
+- *Email*: contato@taskflow.com
+- *GitHub:*: [seu-usuario]( https://github.com/seu-usuario )
+- *LinkedIn:*:  [Seu Nome]( https://linkedin.com/in/seu-nome )
+
+== [[agradecimentos]] 🙏 Agradecimentos
+
+Agradecemos a todos que desenvolveram para o desenvolvimento do TaskFlow, especialmente à comunidade de código aberto por fornecer as tecnologias que este projeto possível desenvolveu.
